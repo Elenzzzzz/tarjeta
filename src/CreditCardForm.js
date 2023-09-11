@@ -88,7 +88,7 @@ function CreditCardForm() {
           <div>
             <label>Número de tarjeta:</label>
             <input
-              type="text"
+              type="number"
               name="number"
               value={cardData.number}
               onChange={handleInputChange}
@@ -110,7 +110,7 @@ function CreditCardForm() {
           <div>
             <label>Fecha de vencimiento:</label>
             <input
-              type="text"
+              type="number"
               name="expiry"
               value={cardData.expiry}
               onChange={handleInputChange}
@@ -121,7 +121,7 @@ function CreditCardForm() {
           <div>
             <label>CVC:</label>
             <input
-              type="text"
+              type="number"
               name="cvc"
               value={cardData.cvc}
               onChange={handleInputChange}
